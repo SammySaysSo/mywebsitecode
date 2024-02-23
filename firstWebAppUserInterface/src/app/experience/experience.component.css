@@ -1,0 +1,221 @@
+.allExperience{
+    text-align: center;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+b{
+    color: rgb(82, 199, 193);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color:darkblue;
+}
+
+.img1Start{
+    animation: picAppearStart 4s linear;
+}
+
+.image1{
+    position: absolute;
+    left: 2%;
+    width: 18vw;
+    height: 12vw;
+    animation: picAppear1 10s infinite;
+}
+
+.image2{
+    position: absolute;
+    left: 81.5%;
+    width: 18vw;
+    height: 12vw;
+    animation: picAppear2 10s infinite;
+}
+
+.image3{
+    position: absolute;
+    left: 2%;
+    margin-top: -2%;
+    width: 18vw;
+    height: 12vw;
+    animation: picAppear2 10s infinite;
+}
+
+.image4{
+    position: absolute;
+    left: 81.5%;
+    margin-top: -2%;
+    width: 18vw;
+    height: 12vw;
+    animation: picAppear1 10s infinite;
+}
+
+.image5{
+    position: absolute;
+    left: 2%;
+    margin-top: -5%;
+    width: 18vw;
+    height: 12vw;
+    animation: picAppear1 10s infinite;
+}
+
+.image6{
+    position: absolute;
+    left: 81.5%;
+    margin-top: -5%;
+    width: 18vw;
+    height: 12vw;
+    animation: picAppear2 10s infinite;
+}
+
+.education{
+    animation: picAppearStart .5s linear;
+}
+
+.li1{
+    animation: picAppearStart 1s linear;
+}
+
+.li2{
+    animation: picAppearStart 1.5s linear;
+}
+
+.li3{
+    animation: picAppearStart 2s linear;
+}
+
+.appliSci{
+    animation: picAppearStart 2.5s linear;
+}
+
+.li4{
+    animation: picAppearStart 3s linear;
+}
+
+.li5{
+    animation: picAppearStart 3.5s linear;
+}
+
+.li6{
+    animation: picAppearStart 4s linear;
+}
+
+.skills{
+    animation: picAppearStart 4.5s linear;
+}
+
+.li7{
+    animation: picAppearStart 5s linear;
+}
+
+.li8{
+    animation: picAppearStart 5.5s linear;
+}
+
+.li9{
+    animation: picAppearStart 6s linear;
+}
+
+.appliSciExp{
+    animation: picAppearStart 6.5s linear;
+}
+
+.li10{
+    animation: picAppearStart 7s linear;
+}
+
+.li11{
+    animation: picAppearStart 7.5s linear;
+}
+
+.li12{
+    animation: picAppearStart 8s linear;
+}
+
+.li13{
+    animation: picAppearStart 8.5s linear;
+}
+
+.li14{
+    animation: picAppearStart 9s linear;
+}
+
+.work{
+    animation: picAppearStart 9.5s linear;
+}
+
+.li15{
+    animation: picAppearStart 10s linear;
+}
+
+.li16{
+    animation: picAppearStart 10.5s linear;
+}
+
+.li17{
+    animation: picAppearStart 11s linear;
+}
+
+.li18{
+    animation: picAppearStart 11.5s linear;
+}
+
+.li19{
+    animation: picAppearStart 12s linear;
+}
+
+.activity{
+    animation: picAppearStart 12.5s linear;
+}
+
+.li20{
+    animation: picAppearStart 13s linear;
+}
+
+.li21{
+    animation: picAppearStart 13.5s linear;
+}
+
+.li22{
+    animation: picAppearStart 14s linear;
+}
+
+.li23{
+    animation: picAppearStart 14.5s linear;
+}
+
+.li24{
+    animation: picAppearStart 15s linear;
+}
+
+@keyframes picAppear1 {
+    0% {opacity: 1;}
+    25% {opacity: 1;}
+    50% {opacity: 0;}
+    75% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes picAppear2 {
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 1;}
+    75% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes picAppearStart {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}

@@ -1,0 +1,176 @@
+header{
+    height: 35% !important;
+    background-color: rgb(241, 228, 228);
+}
+
+.mainHeader{
+    display: inline-block;
+    font-size: 30px;
+    width: 100%;
+    background-color: rgb(241, 228, 228);
+    height: 35% !important;
+}
+
+.mainHeader1{
+    font-size: 16px;
+    float: left;
+    margin-top: 1.5%;
+    width: 40%;
+    background-color: rgb(241, 228, 228);
+    height: 40px;
+}
+
+.mainHeader2, .mainHeader3, .mainHeader4{
+    color: rgb(184, 79, 79);
+    font-size: 15px;
+    float: right;
+    height: 40px;
+    margin-top: 1.5%;
+    background-color: rgb(241, 228, 228);
+}
+
+.mainHeader2{
+    margin-top: 1.5%;
+    margin-right: 5%;
+}
+
+.mainHeader3{
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 1.5em;
+    opacity: .2;
+}
+
+.topHeader1{
+    width:100%;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+    height: 20% !important;
+}
+
+.topHeader1Left{
+    display: inline-block;
+    float: left;
+    font-size: 22px;
+    margin-top: .5%;
+    margin-left: .5%;
+}
+
+.airLogo{
+    margin-left: 5.5%;
+    float: left;
+}
+
+b{
+    color: rgb(184, 79, 79);
+}
+
+.topHeader1Middle{
+    display: inline-block;
+    background-color:#ffffff;
+    border: none;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 50px;
+}
+
+.topHeader1Right{
+    border: none;
+    border-radius: 40px;
+}
+
+.topHeader1RightIcon{
+    border-radius: 100%;
+}
+
+.topHeader1RightRight{
+    display: inline-block;
+    float: right;
+    font-size: 1em;
+    margin-top: .1%;
+    margin-left: 2%;
+    border: none;
+    border-radius: 40px;
+}
+
+.test{
+    display: inline-block;
+    float: right;
+    font-size: 1em;
+    margin-top: .1%;
+    margin-left: 1%;
+    margin-right: 5%;
+    border-radius: 40px;
+}
+
+.topHeader1Right:hover, .topHeader1RightRight:hover, .topHeader1RightIcon:hover{
+    background-color: rgb(250, 235, 235);cursor: pointer;
+}
+
+.topHeader1Buttons{
+    width:90%;
+    display: inline;
+    font-size: 9px;
+}
+
+.topHeader1Text:hover{
+    cursor: pointer;
+}
+
+.topHeader1Text{
+    display: inline-block;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 5px;
+    font-size: 1.5em;
+}
+
+.topHeader1Lines{
+    display: inline-block;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 3.5em;
+    opacity: .2;
+}
+
+.searchBtn {
+    background-color: rgb(196, 104, 104);
+    border: none;
+    font-size: 16px;
+    cursor: pointer; 
+    border-radius: 50%;
+    height: 90%;
+}
+
+.searchBtnIcon{
+    background-color: rgb(196, 104, 104);
+    color: white;
+    height: 50%;
+}
+
+hr{
+    width: 100%;
+    height: 1px;
+    margin-bottom: 100px;
+    opacity: .2;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    background-color: white;
+    height: 100%;
+    color: black;
+}

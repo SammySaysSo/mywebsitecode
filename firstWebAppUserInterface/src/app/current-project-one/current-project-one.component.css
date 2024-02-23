@@ -1,0 +1,43 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    background-color: #000000;
+    padding: 10px;
+}
+.grid-item {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+.grid-item:hover{
+    background-color: yellow;
+}
+.headerButtons{
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+}
+.placeButton:hover{
+    background-color: darkblue;
+}
+.placeButton{
+    width:18%;
+    height:25%;
+    padding: 10px;
+    margin: 5px;
+    background-color: blue;
+}
+h3{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 5vw;
+    color: gold;
+}
+p{
+    margin-top: 3%;
+    font-size: 20px;
+    text-align: center;
+}

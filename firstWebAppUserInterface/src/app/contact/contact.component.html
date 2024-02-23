@@ -1,0 +1,65 @@
+<h2>To send me a message or contact information: <a href="https://formsubmit.co/el/hixesa" target="_blank">Click To Send Information</a>.</h2>
+<h3>I didn't know what else to put here is enjoy a game of Tic-Tac-Toe against a super smart AI</h3>
+
+<div class="allInputs">
+  <div class="test">
+    <button id="but1" class="inGameButton" mat-raised-button color="primary"(click)="checkBox1(); winCheck(); runAI(); winCheck();">{{b1}}</button>
+    <button id="but2"  class="inGameButton" mat-raised-button color="primary"(click)="checkBox2(); winCheck(); runAI(); winCheck();">{{b2}}</button>
+    <button id="but3"  class="inGameButton" mat-raised-button color="primary"(click)="checkBox3(); winCheck(); runAI(); winCheck();">{{b3}}</button>
+  </div>
+
+  <div class="test">
+    <button id="but4"  class="inGameButton" mat-raised-button color="primary"(click)="checkBox4(); winCheck(); runAI(); winCheck();">{{b4}}</button>
+    <button id="but5"  class="inGameButton" mat-raised-button color="primary"(click)="checkBox5(); winCheck(); runAI(); winCheck();">{{b5}}</button>
+    <button id="but6"  class="inGameButton" mat-raised-button color="primary"(click)="checkBox6(); winCheck(); runAI(); winCheck();">{{b6}}</button>
+  </div>
+
+  <div class="test">
+    <button id="but7"  class="inGameButton" mat-raised-button color="primary"(click)="checkBox7(); winCheck(); runAI(); winCheck();">{{b7}}</button>
+    <button id="but8"  class="inGameButton" mat-raised-button color="primary"(click)="checkBox8(); winCheck(); runAI(); winCheck();">{{b8}}</button>
+    <button id="but9"  class="inGameButton" mat-raised-button color="primary"(click)="checkBox9(); winCheck(); runAI(); winCheck();">{{b9}}</button>
+  </div>
+
+  <div *ngIf="winner">
+    <h4><b>{{whoWins}}</b></h4>
+  </div>
+
+  <button class="resetButton" mat-raised-button color="primary"(click)="reset();">Reset</button>
+</div>
+
+<!-- <form action="https://formsubmit.co/email method="POST" class="example-form">
+    <table class="example-full-width" cellspacing="0"><tr>
+        <td><mat-form-field class="example-full-width">
+          <mat-label>Name</mat-label>
+          <input matInput [formControl]="NameFormControl" placeholder="Ex. Josh Smith">
+          <mat-error *ngIf="NameFormControl.hasError('required')">
+            Name is <strong>required</strong>
+          </mat-error>
+        </mat-form-field></td>
+        <td><mat-form-field class="example-full-width">
+            <mat-label>Email</mat-label>
+            <input type="email" matInput [formControl]="emailFormControl" placeholder="Ex. pat@example.com">
+            <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+              Please enter a valid email address
+            </mat-error>
+            <mat-error *ngIf="emailFormControl.hasError('required')">
+              Email is <strong>required</strong>
+            </mat-error>
+          </mat-form-field></td>
+      </tr></table>
+      <mat-form-field class="example-full-width">
+        <mat-label>Send me a message</mat-label>
+        <textarea matInput [formControl]="CommentFormControl" placeholder="Ex. Tell me a Computer Pun"></textarea>
+        <mat-error *ngIf="CommentFormControl.hasError('required')">
+            Comment is <strong>required</strong>
+        </mat-error>
+      </mat-form-field>
+
+      <div *ngIf="!emailFormControl.hasError('required') && !emailFormControl.hasError('email') && !NameFormControl.hasError('required') && !CommentFormControl.hasError('required')">
+        <button mat-raised-button color="primary" (click)="sendMessage()">Send</button>
+        <button mat-raised-button color="primary" type="submit" (click)="sendMessage()">Send</button>
+      </div>
+      <div *ngIf="ifSend">
+        <p>Message Has Been Sent!</p>
+      </div>
+</form> -->

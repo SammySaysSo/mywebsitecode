@@ -1,0 +1,31 @@
+.buttonHeader{
+    margin: 8px 8px 8px 0 !important;
+    background-color: rgb(131, 114, 114) !important;
+    color: black !important;
+    padding: 20px !important;
+    font-size: 15px !important;
+    transition: .75s all;
+}
+
+.buttonHeader:hover {
+    background-color: rgb(180, 180, 180) !important;
+    color: white !important;
+    font-size: 25px !important;
+    transition-delay: 0s;
+}
+
+.buttonHeader:focus{
+    background-color:#465547 !important;
+}
+
+.test{
+    margin-top: 10px;
+    transition: .5s all;
+}
+
+.test:hover{
+    font-size: 44px;
+    cursor: default;
+    transition-delay: 0s;
+}
+

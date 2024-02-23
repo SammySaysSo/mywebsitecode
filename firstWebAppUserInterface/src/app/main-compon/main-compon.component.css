@@ -1,0 +1,140 @@
+*{
+    transition: .75s;
+}
+
+h2{
+    font-size: 15vw;
+}
+
+*:hover{
+    font-size: 350px;
+    color: limegreen;
+    z-index: 1;
+    cursor: default;
+}
+
+.s1{
+    position: absolute;
+    animation: moveS1 5s linear;
+    animation-fill-mode: forwards;
+}
+
+.a1{
+    position: absolute;
+    animation: moveA1 5s linear;
+    animation-fill-mode: forwards;
+}
+
+.m1{
+    position: absolute;
+    animation: moveM1 5s linear;
+    animation-fill-mode: forwards;
+}
+
+.m2{
+    position: absolute;
+    animation: moveM2 5s linear;
+    animation-fill-mode: forwards;
+}
+
+.y1{
+    position: absolute;
+    animation: moveY1 5s linear;
+    animation-fill-mode: forwards;
+}
+
+.s2{
+    position: absolute;
+    animation: moveS2 5s linear;
+    animation-fill-mode: forwards;
+}
+
+.a2{
+    position: absolute;
+    animation: moveA2 5s linear;
+    animation-fill-mode: forwards;
+}
+
+.y2{
+    position: absolute;
+    animation: moveY2 5s linear;
+    animation-fill-mode: forwards;
+}
+
+.s3{
+    position: absolute;
+    animation: moveS3 5s linear;
+    animation-fill-mode: forwards;
+}
+
+.s4{
+    position: absolute;
+    animation: moveS4 5s linear;
+    animation-fill-mode: forwards;
+}
+
+.o{
+    position: absolute;
+    animation: moveO 5s linear;
+    animation-fill-mode: forwards;
+}
+
+/* *:hover{
+    color: black;
+    font-size: 150;
+} */
+
+@keyframes moveS1 {
+    0% {top: 90%;left:90%;transform:rotate(0deg);}
+    100% {top:30%;left:27%;transform:rotate(360deg);}
+}
+
+@keyframes moveA1 {
+    0% {top:20%;left:90%;transform:rotate(0deg);}
+    100% {top:30%;left:35%;transform:rotate(360deg);}
+}
+
+@keyframes moveM1 {
+    0% {top: 25%;left:2%;transform:rotate(0deg);}
+    100% {top:30%;left:44%;transform:rotate(360deg);}
+}
+
+@keyframes moveM2 {
+    0% {top:80%;left:2%;transform:rotate(0deg);}
+    100% {top:30%;left:55%;transform:rotate(360deg);}
+}
+
+@keyframes moveY1 {
+    0% {top:80%;left:25%;transform:rotate(0deg);}
+    100% {top:30%;left:66.8%;transform:rotate(360deg);}
+}
+
+@keyframes moveS2 {
+    0% {top:50%;left:2%;transform:rotate(0deg);}
+    100% {top:54%;left:27%;transform:rotate(360deg);}
+}
+
+@keyframes moveA2 {
+    0% {top:20%;left:55%;transform:rotate(0deg);}
+    100% {top:54%;left:35%;transform:rotate(360deg);}
+}
+
+@keyframes moveY2 {
+    0% {top:20%;left:70%;transform:rotate(0deg);}
+    100% {top:54%;left:46%;transform:rotate(360deg);}
+}
+
+@keyframes moveS3 {
+    0% {top:80%;left:55%;transform:rotate(0deg);}
+    100% {top:54%;left:57%;transform:rotate(360deg);}
+}
+
+@keyframes moveS4 {
+    0% {top:20%;left:25%;transform:rotate(0deg);}
+    100% {top:78%;left:27%;transform:rotate(360deg);}
+}
+
+@keyframes moveO {
+    0% {top:50%;left:90%;transform:rotate(0deg);}
+    100% {top:78%;left:35%;transform:rotate(360deg);}
+}

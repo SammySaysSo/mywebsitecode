@@ -1,0 +1,35 @@
+<div class="mainHeader">
+    <h1 class="test">
+        SammySaysSo
+    </h1>
+    <a [routerLink]="['']" style="text-decoration: none; color: inherit;">
+        <button mat-raised-button class="buttonHeader">Home</button>
+    </a>
+    <a [routerLink]="['/exper']" style="text-decoration: none; color: inherit;">
+        <button mat-raised-button class="buttonHeader">Resume</button>
+    </a>
+    <a [routerLink]="['/proj']" style="text-decoration: none; color: inherit;">
+        <button mat-raised-button class="buttonHeader">Past Projects</button>
+    </a>
+    <a [routerLink]="['/timeLine']" style="text-decoration: none; color: inherit;">
+        <button mat-raised-button class="buttonHeader">Timeline</button>
+    </a>
+    <a [routerLink]="['/contact']" style="text-decoration: none; color: inherit;">
+        <button mat-raised-button class="buttonHeader">Contact</button>
+    </a>
+    <a [routerLink]="['/curProjOne']" style="text-decoration: none; color: inherit;">
+        <button mat-raised-button class="buttonHeader">Current Project #1: Pathing</button>
+    </a>
+    <a [routerLink]="['/leah']" style="text-decoration: none; color: inherit;">
+        <button mat-raised-button class="buttonHeader">Leah <3</button>
+    </a>
+    <!-- <a [routerLink]="['/curProjTwo']" style="text-decoration: none; color: inherit;">
+        <button mat-raised-button class="buttonHeader">Current Project #2: Airbnb Copy</button>
+    </a> -->
+    <!-- <a [routerLink]="['']" style="text-decoration: none; color: inherit;">
+        <button mat-raised-button class="buttonHeader">Current Project #3: Data Synchronize Visualization(Under construction)</button>
+    </a> -->
+</div>
+<body>
+    <router-outlet></router-outlet>
+</body>

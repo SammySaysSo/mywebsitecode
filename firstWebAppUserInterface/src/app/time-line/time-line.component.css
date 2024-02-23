@@ -1,0 +1,210 @@
+.allTimeLine{
+    margin-top: 15px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color:darkblue;
+}
+
+.yearText{
+    font-size: 70px;
+}
+
+.monthText{
+    font-size: 20px;
+}
+
+.textFormat{
+    display: inline-block;
+}
+
+.middleLine{
+    font-size: 40px;
+}
+
+.textTimeLine1{
+    position: relative;
+    display: inline-block;
+    max-width: 80%;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    z-index:0;
+    animation: mymove 5s infinite;
+}
+
+.textTimeLine2{
+    position: relative;
+    display: inline-block;
+    max-width: 80%;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    z-index:0;
+    text-shadow: 20px 20px 4px #000000;
+}
+
+.image{
+    position: absolute;
+    z-index:-1;
+    top: -15px;
+    opacity: 0.5;
+    animation: picMove 5s infinite;
+}
+
+#a1{
+    animation: picAppearStart .5s linear;
+}
+
+#a2{
+    animation: picAppearStart 1s linear;
+}
+
+#a3{
+    animation: picAppearStart 1.5s linear;
+}
+
+#a4{
+    animation: picAppearStart 2s linear;
+}
+
+#a5{
+    animation: picAppearStart 2.5s linear;
+}
+
+#b1{
+    animation: picAppearStart 2.75s linear;
+}
+
+#a6{
+    animation: picAppearStart 3s linear;
+}
+
+#a7{
+    animation: picAppearStart 3.5s linear;
+}
+
+#a8{
+    animation: picAppearStart 4s linear;
+}
+
+#a9{
+    animation: picAppearStart 4.5s linear;
+}
+
+#a10{
+    animation: picAppearStart 5s linear;
+}
+
+#a11{
+    animation: picAppearStart 5.5s linear;
+}
+
+#a12{
+    animation: picAppearStart 6s linear;
+}
+
+#a13{
+    animation: picAppearStart 6.5s linear;
+}
+
+#a14{
+    animation: picAppearStart 7s linear;
+}
+
+#a15{
+    animation: picAppearStart 7.5s linear;
+}
+
+#a16{
+    animation: picAppearStart 8s linear;
+}
+
+#a17{
+    animation: picAppearStart 8.5s linear;
+}
+
+#a18{
+    animation: picAppearStart 9s linear;
+}
+
+#a19{
+    animation: picAppearStart 9.5s linear;
+}
+
+#a20{
+    animation: picAppearStart 10s linear;
+}
+
+#a21{
+    animation: picAppearStart 10.5s linear;
+}
+
+#a22{
+    animation: picAppearStart 11s linear;
+}
+
+#a23{
+    animation: picAppearStart 11.5s linear;
+}
+
+#a24{
+    animation: picAppearStart 12s linear;
+}
+
+#a25{
+    animation: picAppearStart 12.5s linear;
+}
+
+#a26{
+    animation: picAppearStart 13s linear;
+}
+
+#a27{
+    animation: picAppearStart 13.5s linear;
+}
+
+#a28{
+    animation: picAppearStart 14s linear;
+}
+
+#a29{
+    animation: picAppearStart 14.5s linear;
+}
+
+#a30{
+    animation: picAppearStart 15s linear;
+}
+
+#a31{
+    animation: picAppearStart 15.5s linear;
+}
+
+#a32{
+    animation: picAppearStart 16s linear;
+}
+
+@keyframes mymove {
+    50% {text-shadow: 20px 40px 4px rgb(0, 0, 0);}
+}
+
+@keyframes picMove {
+    0% {left: 92%;}
+    50% {left: 0%;}
+    100% {left: 92%;}
+}
+
+@keyframes picAppearStart {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}

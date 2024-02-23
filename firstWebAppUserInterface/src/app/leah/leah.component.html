@@ -1,0 +1,30 @@
+<div class="headerButtons">
+    <button id="h1" class="placeButton" mat-raised-button color="primary" (click)="h1Pressed();">Place Flag = {{this.flag}}</button>
+    <button id="h5" class="placeButton" mat-raised-button color="primary" (click)="h2Pressed();">Restart</button>
+</div>
+
+<div *ngIf="endGameIfPlacedOnMine == true">
+    <h1>YOU HAVE LOST ON THE EASIEST</h1>
+    <h1>MINESWEEPER POSSIBLE!</h1>
+    <h1>Click Restart to Restart</h1>
+</div>
+
+<div *ngIf="gameWin == true && gameWin2 == true">
+    <h1>YOU WON</h1>
+    <h1>Happy 3 months <3</h1>
+    <h1>Turn sound on and enjoy the pictures</h1>
+</div>
+
+<div *ngIf="gameWin == true && gameWin2 == false">
+    <h1><3</h1>
+    <h1><img class="image1" src="{{allPictures[indexOfPhoto]}}" alt="fswaAPI2">
+        <img class="image1" src="{{allPictures[(indexOfPhoto+1)]}}" alt="fswaAPI2">
+        <img class="image1" src="{{allPictures[(indexOfPhoto+2)]}}" alt="fswaAPI2"></h1>
+    <h1><3</h1>
+</div>
+
+<div class="grid-container">
+    <div *ngFor="let num of allButtons">
+        <button class="grid-item" id="{{num}}" (click)="btnPress(num);" [disabled]="endGameIfPlacedOnMine">{{allButtonsStrings[num]}}</button>
+    </div>
+</div>

@@ -1,0 +1,118 @@
+h2{
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color:darkblue;
+}
+
+b{
+    color: rgb(82, 199, 193);
+}
+
+.test{
+    position: relative;
+    max-width: 100%;
+}
+
+.image1{
+    display: inline-block;
+    width:30%;
+    height:25%;
+    max-height: 300px;
+    margin-left: 2%;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -20px;
+    animation: picAppear1 15s infinite;
+}
+
+.image2{
+    display: inline-block;
+    margin-left: 2%;
+    width:30%;
+    height:25%;
+    max-height: 300px;
+    position: relative;
+    z-index: 3;
+    margin-top: -100%;
+    animation: picAppear2 15s infinite;
+}
+
+#a1{
+    animation: picAppearStart .5s linear;
+}
+
+#a2{
+    animation: picAppearStart 1s linear;
+}
+
+#a3{
+    animation: picAppearStart 1.5s linear;
+}
+
+#a4{
+    animation: picAppearStart 2s linear;
+}
+
+#a5{
+    animation: picAppearStart 2.5s linear;
+}
+
+#b1{
+    animation: picAppearStart 2.75s linear;
+}
+
+#a6{
+    animation: picAppearStart 3s linear;
+}
+
+#a7{
+    animation: picAppearStart 3.5s linear;
+}
+
+#a8{
+    animation: picAppearStart 4s linear;
+}
+
+#a9{
+    animation: picAppearStart 4.5s linear;
+}
+
+#a10{
+    animation: picAppearStart 5s linear;
+}
+
+#a11{
+    animation: picAppearStart 5.5s linear;
+}
+
+#a12{
+    animation: picAppearStart 6s linear;
+}
+
+@keyframes picAppear1 {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes picAppear2 {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes picAppearStart {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
